@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    list-style: none;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    height: 300px;
+    width: 300px;
+    border: 1px solid steelblue;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
