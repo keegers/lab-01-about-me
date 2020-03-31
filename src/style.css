@@ -4,32 +4,56 @@
     padding: 0;
 }
 
+section {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #3D1913;
+    margin-top: 10px;    
+}
+
+li {
+    margin: 10px;
+}
+
+.title {
+    display: block;
+    font-family: 'Montserrat' , sans-serif;
+    color: #392624;
+    margin-top: 1rem;
+}
+
 .gallery {
     list-style: none;
-    margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .gallery-item {
-    height: 300px;
     width: 300px;
-    border: 1px solid steelblue;
-    border-radius: 2px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: px;
+    margin: 1rem;
 }
 
 .card--image {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
+    height: 250px;
+    width: 300px;
+    object-fit: cover;  
 }
 
+.card--title {
+    font-size: 1.3rem;
+}
 
 .on-completion {
     display: none;
+}
+
+.celebrate {
+    font-size: large;
+    color: #C7392F;
 }
