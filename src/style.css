@@ -28,3 +28,8 @@
     width: 100%;
     object-fit: cover;
 }
+
+
+.on-completion {
+    display: none;
+}
