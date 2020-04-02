@@ -20,7 +20,7 @@ quizButton.addEventListener('click', () => {
     if (quizArea.classList.contains('celebrate')) {
         quizArea.classList.toggle('celebrate');
     }
-    
+    //ajfkla;fjda;f
     //do they want to take the quiz (call isYes), else return;
     const confirm = prompt('Do you want to take the quiz? (Yes / No)');
 
