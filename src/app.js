@@ -1,5 +1,5 @@
 //Import the isYes function
-import {isYes} from './is-yes.js';
+import { isYes } from './is-yes.js';
 
 //Set a value for the quizbutton
 const quizButton = document.getElementById('quiz-button');
