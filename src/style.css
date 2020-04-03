@@ -7,6 +7,10 @@
 section {
     margin-left: 2rem;
     margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    padding: 50px;
+    background-color: rgb(133, 121, 119);
 }
 
 p {
@@ -35,18 +39,25 @@ li {
 
 .gallery-item {
     width: 300px;
-    border-radius: px;
+    border-radius: 20px;
     margin: 1rem;
+    background-color: white;
 }
 
 .card--image {
     height: 250px;
     width: 300px;
-    object-fit: cover;  
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;  
 }
 
 .card--title {
     font-size: 1.3rem;
+    padding: 20px;
+}
+
+.card--description {
+    padding: 20px;
 }
 
 .on-completion {
@@ -56,4 +67,27 @@ li {
 .celebrate {
     font-size: large;
     color: #C7392F;
+}
+
+.cinema4d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 60px;
+}
+
+.container {
+    margin: auto;
+    padding: 10px;
+}
+
+#celebrate-image {
+    width: 500px;
+    height: 500px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
