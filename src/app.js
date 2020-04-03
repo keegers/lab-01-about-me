@@ -1,6 +1,8 @@
 //Import the isYes function
 import { isYes } from './is-yes.js';
 
+const confetti = document.getElementById('celebrate-image');
+
 //Set a value for the quizbutton
 const quizButton = document.getElementById('quiz-button');
 
@@ -40,6 +42,7 @@ quizButton.addEventListener('click', () => {
         alert('Thanks for your responses! Check how you did at the bottom of the page.');
         const result = Math.round((score / 3) * 100);
         if (result > 50) {
+            confetti.style.display = 'flex';
             quizArea.classList.toggle('celebrate');
             resultsDisplay.textContent = `Congratulations ${name}! You got ${score}/3 correct with ${result}% accuracy! Wow!`;
         } else {
